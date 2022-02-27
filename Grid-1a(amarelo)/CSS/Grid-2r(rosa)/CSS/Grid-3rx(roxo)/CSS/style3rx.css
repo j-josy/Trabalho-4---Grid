@@ -1,0 +1,95 @@
+html {
+    margin: 8px;
+    padding: 20px  100px  20px;
+    
+}
+
+body {
+    background-color: #8311eed5;
+}
+
+.bloco {
+    border: solid 5px #001f86;
+    border-radius: 8px;
+   
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 400px;
+
+}
+
+.numero1 {
+    background-color:rgb(255, 255, 255) ;
+    grid-area: 1/3/1/1;
+    
+}
+
+.numero2 {
+    background-color: rgb(255, 255, 255);
+    grid-area: 1/3/1/5;
+}
+
+.numero3 {
+    background-color: rgb(255, 255, 255);
+    grid-area: 2/3/12/1;
+}
+
+.numero4 {
+    background-color: rgb(255, 255, 255);
+    grid-area: 2/5/12/3;
+
+
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 150px 140px;
+    gap: 5px;
+   
+    
+}
+
+.blok {
+    border: solid 5px #05036d;
+    padding: 10px;
+}
+
+
+.blok-1 {
+    background-color: #cac7c7;
+    grid-area: 1/1/2/7;
+    border: solid 5px #cac7c7;
+    border-radius: 8px; 
+    padding: 10px;
+    margin-top: 0%;
+    margin-inline: 8px;
+  
+}
+
+.blok-2{
+    background-color: #cac7c7;
+    grid-area: 2/1/3/4;
+    border: solid 5px #cac7c7;
+    border-radius: 8px; 
+    padding: 8px;
+    margin-inline: 8px;
+}
+
+.blok-3 {
+    background-color: #cac7c7;
+    grid-area: 2/4/3/7;
+    border: solid 5px #cac7c7;
+    border-radius: 8px; 
+    padding: 8px;
+    margin-inline: 8px;
+
+
+    
+}

@@ -1,0 +1,70 @@
+body {
+    background-color: #f2cd5e;
+}
+
+.container {
+    display: grid;
+    gap: 8px;
+     grid-template-rows: 150px 45px 150px  100px ;
+    grid-template-columns: auto 80% ;
+    grid-template-areas:
+    "banner banner  banner banner" /* 150px */
+     "menu   menu menu menu " /* 45px */
+     "corpo  corpo  lateral lateral " /* 150px*/
+     "rodape rodape rodape rodape" /* 100px */
+    ;
+
+    background-color: #1f4774;
+    margin: 25px auto;
+    padding: 8px;
+    width: 60%;
+}
+
+.bloco {
+    background-color: #f7f7f7;
+    border-radius: 8px; 
+}
+
+
+
+
+.banner {
+    grid-area: banner;
+    background-color: #f7f7f7;
+    
+}
+
+
+.menu {
+    grid-area: menu;
+    background-color:#f7f7f7 ;
+   
+}
+
+
+
+.corpo {
+    grid-area: corpo;
+    background-color:#f7f7f7 ;
+    
+  
+    
+
+
+}
+
+.lateral {
+    grid-area: lateral;
+    background-color:#f7f7f7;
+
+
+    
+  
+   
+    
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color:#f7f7f7 ;
+}
